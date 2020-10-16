@@ -1,0 +1,18 @@
+# SYNTAX TEST "Packages/GraphQL/GraphQL.tmLanguage"
+
+type Starship {
+# source.graphql meta.type.interface.graphql keyword.type.graphql
+  id: ID!
+  name: String!
+#        ^ source.graphql meta.type.interface.graphql meta.type.object.graphql support.type.builtin.graphql
+  length(unit: LengthUnit = METER): Float
+# ^ source.graphql meta.type.interface.graphql meta.type.object.graphql variable.graphql
+#        ^ source.graphql meta.type.interface.graphql meta.type.object.graphql meta.variables.graphql variable.parameter.graphql
+#              ^ source.graphql meta.type.interface.graphql meta.type.object.graphql meta.variables.graphql support.type.graphql
+#                            ^ source.graphql meta.type.interface.graphql meta.type.object.graphql meta.variables.graphql constant.character.enum.graphql
+}
+
+"""
+I can't believe it's not butter butter.
+"""
+# ^ source.graphql meta.type.interface.graphql comment.line.graphql.js
