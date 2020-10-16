@@ -1,7 +1,7 @@
-# SYNTAX TEST "Packages/GraphQL/GraphQL.tmLanguage"
+# SYNTAX TEST "Packages/GraphQL/GraphQL.sublime-syntax"
 
 type Starship {
-# source.graphql meta.type.interface.graphql keyword.type.graphql
+# ^ source.graphql meta.type.interface.graphql keyword.type.graphql
   id: ID!
   name: String!
 #        ^ source.graphql meta.type.interface.graphql meta.type.object.graphql support.type.builtin.graphql
